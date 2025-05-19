@@ -1,4 +1,4 @@
-FROM runpod/base:0.6.3-cuda11.8.0
+FROM runpod/pytorch:2.2.0-py3.10-cuda12.1.1-devel-ubuntu22.04
 
 # Set python3.11 as the default python
 RUN ln -sf $(which python3.11) /usr/local/bin/python && \
