@@ -1,4 +1,4 @@
-FROM runpod/base:0.6.3-cpu
+FROM runpod/base:0.6.3-cuda11.8.0
 
 # Set python3.11 as the default python
 RUN ln -sf $(which python3.11) /usr/local/bin/python && \
